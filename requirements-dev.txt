@@ -1,0 +1,13 @@
+requests
+twine
+pytest
+coverage
+pytest-cov
+
+neo4j
+neobolt==1.7.16
+neotime==1.7.4
+pytz==2019.3
+six==1.14.0
+neo4j-driver
+
