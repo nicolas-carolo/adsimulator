@@ -9,7 +9,7 @@ STANDARD_GROUPS = [
         "name": "ADMINISTRATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-544",
-        "distinguishedname": "CN=Administrators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Administrators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Administrators have complete and unrestricted access to the computer/domain",
         "admincount": True
       },
@@ -107,7 +107,7 @@ STANDARD_GROUPS = [
         "name": "REMOTE DESKTOP USERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-555",
-        "distinguishedname": "CN=Remote Desktop Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Remote Desktop Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members in this group are granted the right to logon remotely",
         "admincount": False
       },
@@ -171,7 +171,7 @@ STANDARD_GROUPS = [
         "name": "PRINT OPERATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-550",
-        "distinguishedname": "CN=Print Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Print Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members can administer printers installed on domain controllers",
         "admincount": True
       },
@@ -256,7 +256,7 @@ STANDARD_GROUPS = [
         "name": "IIS_IUSRS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-568",
-        "distinguishedname": "CN=IIS_IUSRS,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=IIS_IUSRS,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Built-in group used by Internet Information Services.",
         "admincount": False
       },
@@ -325,7 +325,7 @@ STANDARD_GROUPS = [
         "name": "BACKUP OPERATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-551",
-        "distinguishedname": "CN=Backup Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Backup Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Backup Operators can override security restrictions for the sole purpose of backing up or restoring files",
         "admincount": True
       },
@@ -410,7 +410,7 @@ STANDARD_GROUPS = [
         "name": "NETWORK CONFIGURATION OPERATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-556",
-        "distinguishedname": "CN=Network Configuration Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Network Configuration Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members in this group can have some administrative privileges to manage configuration of networking features",
         "admincount": False
       },
@@ -474,7 +474,7 @@ STANDARD_GROUPS = [
         "name": "PERFORMANCE MONITOR USERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-558",
-        "distinguishedname": "CN=Performance Monitor Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Performance Monitor Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group can access performance counter data locally and remotely",
         "admincount": False
       },
@@ -538,7 +538,7 @@ STANDARD_GROUPS = [
         "name": "REPLICATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-552",
-        "distinguishedname": "CN=Replicator,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Replicator,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Supports file replication in a domain",
         "admincount": True
       },
@@ -623,7 +623,7 @@ STANDARD_GROUPS = [
         "name": "DISTRIBUTED COM USERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-562",
-        "distinguishedname": "CN=Distributed COM Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Distributed COM Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members are allowed to launch, activate and use Distributed COM objects on this machine.",
         "admincount": False
       },
@@ -687,7 +687,7 @@ STANDARD_GROUPS = [
         "name": "PERFORMANCE LOG USERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-559",
-        "distinguishedname": "CN=Performance Log Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Performance Log Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer",
         "admincount": False
       },
@@ -751,7 +751,7 @@ STANDARD_GROUPS = [
         "name": "CRYPTOGRAPHIC OPERATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-569",
-        "distinguishedname": "CN=Cryptographic Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Cryptographic Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members are authorized to perform cryptographic operations.",
         "admincount": False
       },
@@ -815,7 +815,7 @@ STANDARD_GROUPS = [
         "name": "EVENT LOG READERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-573",
-        "distinguishedname": "CN=Event Log Readers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Event Log Readers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group can read event logs from local machine",
         "admincount": False
       },
@@ -879,7 +879,7 @@ STANDARD_GROUPS = [
         "name": "GUESTS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-546",
-        "distinguishedname": "CN=Guests,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Guests,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Guests have the same access as members of the Users group by default, except for the Guest account which is further restricted",
         "admincount": False
       },
@@ -952,7 +952,7 @@ STANDARD_GROUPS = [
         "name": "SYSTEM MANAGED ACCOUNTS GROUP@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "S-1-5-32-581",
-        "distinguishedname": "CN=System Managed Accounts Group,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=System Managed Accounts Group,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group are managed by the system.",
         "admincount": False
       },
@@ -1021,7 +1021,7 @@ STANDARD_GROUPS = [
         "name": "USERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-545",
-        "distinguishedname": "CN=Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Users are prevented from making accidental or intentional system-wide changes and can run most applications",
         "admincount": False
       },
@@ -1098,7 +1098,7 @@ STANDARD_GROUPS = [
         "name": "CERTIFICATE SERVICE DCOM ACCESS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-574",
-        "distinguishedname": "CN=Certificate Service DCOM Access,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Certificate Service DCOM Access,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group are allowed to connect to Certification Authorities in the enterprise",
         "admincount": False
       },
@@ -1162,7 +1162,7 @@ STANDARD_GROUPS = [
         "name": "RDS REMOTE ACCESS SERVERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-575",
-        "distinguishedname": "CN=RDS Remote Access Servers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=RDS Remote Access Servers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Servers in this group enable users of RemoteApp programs and personal virtual desktops access to these resources. In Internet-facing deployments, these servers are typically deployed in an edge network. This group needs to be populated on servers running RD Connection Broker. RD Gateway servers and RD Web Access servers used in the deployment need to be in this group.",
         "admincount": False
       },
@@ -1226,7 +1226,7 @@ STANDARD_GROUPS = [
         "name": "RDS ENDPOINT SERVERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-576",
-        "distinguishedname": "CN=RDS Endpoint Servers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=RDS Endpoint Servers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Servers in this group run virtual machines and host sessions where users RemoteApp programs and personal virtual desktops run. This group needs to be populated on servers running RD Connection Broker. RD Session Host servers and RD Virtualization Host servers used in the deployment need to be in this group.",
         "admincount": False
       },
@@ -1290,7 +1290,7 @@ STANDARD_GROUPS = [
         "name": "RDS MANAGEMENT SERVERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-577",
-        "distinguishedname": "CN=RDS Management Servers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=RDS Management Servers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Servers in this group can perform routine administrative actions on servers running Remote Desktop Services. This group needs to be populated on all servers in a Remote Desktop Services deployment. The servers running the RDS Central Management service must be included in this group.",
         "admincount": False
       },
@@ -1354,7 +1354,7 @@ STANDARD_GROUPS = [
         "name": "HYPER-V ADMINISTRATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-578",
-        "distinguishedname": "CN=Hyper-V Administrators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Hyper-V Administrators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group have complete and unrestricted access to all features of Hyper-V.",
         "admincount": False
       },
@@ -1418,7 +1418,7 @@ STANDARD_GROUPS = [
         "name": "ACCESS CONTROL ASSISTANCE OPERATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-579",
-        "distinguishedname": "CN=Access Control Assistance Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Access Control Assistance Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group can remotely query authorization attributes and permissions for resources on this computer.",
         "admincount": False
       },
@@ -1482,7 +1482,7 @@ STANDARD_GROUPS = [
         "name": "REMOTE MANAGEMENT USERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-580",
-        "distinguishedname": "CN=Remote Management Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Remote Management Users,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user.",
         "admincount": False
       },
@@ -1546,7 +1546,7 @@ STANDARD_GROUPS = [
         "name": "CERT PUBLISHERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-517",
-        "distinguishedname": "CN=Cert Publishers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Cert Publishers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group are permitted to publish certificates to the directory",
         "admincount": False
       },
@@ -1610,7 +1610,7 @@ STANDARD_GROUPS = [
         "name": "SERVER OPERATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-549",
-        "distinguishedname": "CN=Server Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Server Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members can administer domain servers",
         "admincount": True
       },
@@ -1695,7 +1695,7 @@ STANDARD_GROUPS = [
         "name": "ACCOUNT OPERATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-548",
-        "distinguishedname": "CN=Account Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Account Operators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members can administer domain user and group accounts",
         "admincount": True
       },
@@ -1780,7 +1780,7 @@ STANDARD_GROUPS = [
         "name": "PRE-WINDOWS 2000 COMPATIBLE ACCESS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-554",
-        "distinguishedname": "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "A backward compatibility group which allows read access on all users and groups in the domain",
         "admincount": False
       },
@@ -1849,7 +1849,7 @@ STANDARD_GROUPS = [
         "name": "WINDOWS AUTHORIZATION ACCESS GROUP@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-560",
-        "distinguishedname": "CN=Windows Authorization Access Group,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Windows Authorization Access Group,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group have access to the computed tokenGroupsGlobalAndUniversal attribute on User objects",
         "admincount": False
       },
@@ -1918,7 +1918,7 @@ STANDARD_GROUPS = [
         "name": "DENIED RODC PASSWORD REPLICATION GROUP@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-572",
-        "distinguishedname": "CN=Denied RODC Password Replication Group,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Denied RODC Password Replication Group,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members in this group cannot have their passwords replicated to any read-only domain controllers in the domain",
         "admincount": False
       },
@@ -2015,7 +2015,7 @@ STANDARD_GROUPS = [
         "name": "SCHEMA ADMINS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-518",
-        "distinguishedname": "CN=Schema Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Schema Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Designated administrators of the schema",
         "admincount": True
       },
@@ -2105,7 +2105,7 @@ STANDARD_GROUPS = [
         "name": "ENTERPRISE ADMINS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-519",
-        "distinguishedname": "CN=Enterprise Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Enterprise Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Designated administrators of the enterprise",
         "admincount": True
       },
@@ -2195,7 +2195,7 @@ STANDARD_GROUPS = [
         "name": "DOMAIN ADMINS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-512",
-        "distinguishedname": "CN=Domain Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Domain Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Designated administrators of the domain",
         "admincount": True
       },
@@ -2285,7 +2285,7 @@ STANDARD_GROUPS = [
         "name": "RAS AND IAS SERVERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-553",
-        "distinguishedname": "CN=RAS and IAS Servers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=RAS and IAS Servers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Servers in this group can access remote access properties of users",
         "admincount": False
       },
@@ -2349,7 +2349,7 @@ STANDARD_GROUPS = [
         "name": "INCOMING FOREST TRUST BUILDERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-557",
-        "distinguishedname": "CN=Incoming Forest Trust Builders,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Incoming Forest Trust Builders,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group can create incoming, one-way trusts to this forest",
         "admincount": False
       },
@@ -2413,7 +2413,7 @@ STANDARD_GROUPS = [
         "name": "TERMINAL SERVER LICENSE SERVERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_NAME.DOMAIN_SUFFIX-S-1-5-32-561",
-        "distinguishedname": "CN=Terminal Server License Servers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Terminal Server License Servers,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group can update user accounts in Active Directory with information about license issuance, for the purpose of tracking and reporting TS Per User CAL usage",
         "admincount": False
       },
@@ -2477,7 +2477,7 @@ STANDARD_GROUPS = [
         "name": "ALLOWED RODC PASSWORD REPLICATION GROUP@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-571",
-        "distinguishedname": "CN=Allowed RODC Password Replication Group,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Allowed RODC Password Replication Group,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members in this group can have their passwords replicated to all read-only domain controllers in the domain",
         "admincount": False
       },
@@ -2541,7 +2541,7 @@ STANDARD_GROUPS = [
         "name": "DNSADMINS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-1101",
-        "distinguishedname": "CN=DnsAdmins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=DnsAdmins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "DNS Administrators Group",
         "admincount": False
       },
@@ -2598,7 +2598,7 @@ STANDARD_GROUPS = [
         "name": "DOMAIN CONTROLLERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-516",
-        "distinguishedname": "CN=Domain Controllers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Domain Controllers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "All domain controllers in the domain",
         "admincount": True
       },
@@ -2683,7 +2683,7 @@ STANDARD_GROUPS = [
         "name": "DOMAIN COMPUTERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-515",
-        "distinguishedname": "CN=Domain Computers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Domain Computers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "All workstations and servers joined to the domain",
         "admincount": False
       },
@@ -2747,7 +2747,7 @@ STANDARD_GROUPS = [
         "name": "DOMAIN USERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-513",
-        "distinguishedname": "CN=Domain Users,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Domain Users,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "All domain users",
         "admincount": False
       },
@@ -2824,7 +2824,7 @@ STANDARD_GROUPS = [
         "name": "GROUP POLICY CREATOR OWNERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-520",
-        "distinguishedname": "CN=Group Policy Creator Owners,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Group Policy Creator Owners,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members in this group can modify group policy for the domain",
         "admincount": False
       },
@@ -2893,7 +2893,7 @@ STANDARD_GROUPS = [
         "name": "DOMAIN GUESTS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-514",
-        "distinguishedname": "CN=Domain Guests,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Domain Guests,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "All domain guests",
         "admincount": False
       },
@@ -2962,7 +2962,7 @@ STANDARD_GROUPS = [
         "name": "READ-ONLY DOMAIN CONTROLLERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-521",
-        "distinguishedname": "CN=Read-only Domain Controllers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Read-only Domain Controllers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group are Read-Only Domain Controllers in the domain",
         "admincount": True
       },
@@ -3047,7 +3047,7 @@ STANDARD_GROUPS = [
         "name": "ENTERPRISE READ-ONLY DOMAIN CONTROLLERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-498",
-        "distinguishedname": "CN=Enterprise Read-only Domain Controllers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Enterprise Read-only Domain Controllers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group are Read-Only Domain Controllers in the enterprise",
         "admincount": False
       },
@@ -3111,7 +3111,7 @@ STANDARD_GROUPS = [
         "name": "CLONEABLE DOMAIN CONTROLLERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-522",
-        "distinguishedname": "CN=Cloneable Domain Controllers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Cloneable Domain Controllers,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group that are domain controllers may be cloned.",
         "admincount": False
       },
@@ -3175,7 +3175,7 @@ STANDARD_GROUPS = [
         "name": "PROTECTED USERS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-525",
-        "distinguishedname": "CN=Protected Users,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Protected Users,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group are afforded additional protections against authentication security threats. See http://go.microsoft.com/fwlink/?LinkId=298939 for more information.",
         "admincount": False
       },
@@ -3239,7 +3239,7 @@ STANDARD_GROUPS = [
         "name": "KEY ADMINS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-526",
-        "distinguishedname": "CN=Key Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Key Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group can perform administrative actions on key objects within the domain.",
         "admincount": False
       },
@@ -3303,7 +3303,7 @@ STANDARD_GROUPS = [
         "name": "ENTERPRISE KEY ADMINS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-527",
-        "distinguishedname": "CN=Enterprise Key Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Enterprise Key Admins,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group can perform administrative actions on key objects within the forest.",
         "admincount": False
       },
@@ -3367,7 +3367,7 @@ STANDARD_GROUPS = [
         "name": "DNSUPDATEPROXY@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "DOMAIN_SID-1102",
-        "distinguishedname": "CN=DnsUpdateProxy,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=DnsUpdateProxy,CN=Users,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "DNS clients who are permitted to perform dynamic updates on behalf of some other clients (such as DHCP servers).",
         "admincount": False
       },
@@ -3424,7 +3424,7 @@ STANDARD_GROUPS = [
         "name": "STORAGE REPLICA ADMINISTRATORS@DOMAIN_NAME.DOMAIN_SUFFIX",
         "domain": "DOMAIN_NAME.DOMAIN_SUFFIX",
         "objectid": "S-1-5-32-582",
-        "distinguishedname": "CN=Storage Replica Administrators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_NAME_SUFFIX",
+        "distinguishedname": "CN=Storage Replica Administrators,CN=Builtin,DC=DOMAIN_NAME,DC=DOMAIN_SUFFIX",
         "description": "Members of this group have complete and unrestricted access to all features of Storage Replica.",
         "admincount": False
       },
