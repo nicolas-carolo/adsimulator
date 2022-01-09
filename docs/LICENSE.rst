@@ -3,14 +3,14 @@ Appendix B. License for adsimulator
 =======================================================
 :Info: This is the license for adsimulator.
 :Author: Nicolas Carolo <nicolascarolo.dev@gmail.com>
-:Copyright: © 2020, Nicolas Carolo.
+:Copyright: © 2022, Nicolas Carolo.
 :License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
-:Date: 2020-11-02
-:Version: 0.1.0
+:Date: 2022-01-09
+:Version: 1.0.0
 
 .. index:: LICENSE
 
-Copyright © 2020, Nicolas Carolo.
+Copyright © 2022, Nicolas Carolo.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

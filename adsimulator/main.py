@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
-# adsimulator v0.1.0
+# adsimulator v1.0.0
 # A realistic random generator of Active Directory domains
-# Copyright © 2020, Nicolas Carolo.
+# Copyright © 2022, Nicolas Carolo.
 # See /LICENSE for licensing information.
 
 """
 INSERT MODULE DESCRIPTION HERE.
 
-:Copyright: © 2020, Nicolas Carolo.
+:Copyright: © 2022, Nicolas Carolo.
 :License: BSD (see /LICENSE).
 """
 

@@ -3,9 +3,9 @@ adsimulator.  A realistic random generator of Active Directory domains
 ==============================================================================
 :Info: This is the README file for adsimulator.
 :Author: Nicolas Carolo <nicolascarolo.dev@gmail.com>
-:Copyright: © 2020, Nicolas Carolo.
-:Date: 2020-11-02
-:Version: 0.1.0
+:Copyright: © 2022, Nicolas Carolo.
+:Date: 2022-01-09
+:Version: 1.0.0
 
 .. index: README
 .. image:: https://travis-ci.org/nicolas_carolo/adsimulator.svg?branch=master
@@ -25,7 +25,7 @@ NOTES
 
 COPYRIGHT
 ---------
-Copyright © 2020, Nicolas Carolo.
+Copyright © 2022, Nicolas Carolo.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 # adsimulator test suite
-# Copyright © 2020, Nicolas Carolo.
+# Copyright © 2022, Nicolas Carolo.
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without

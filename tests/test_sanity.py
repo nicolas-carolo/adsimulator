@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 # adsimulator test suite
-# Copyright © 2020, Nicolas Carolo.
+# Copyright © 2022, Nicolas Carolo.
 # See /LICENSE for licensing information.
 
 

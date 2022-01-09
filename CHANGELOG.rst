@@ -3,10 +3,10 @@ Appendix C. Changelog
 =====================
 :Info: This is the changelog for adsimulator.
 :Author: Nicolas Carolo <nicolascarolo.dev@gmail.com>
-:Copyright: © 2020, Nicolas Carolo.
+:Copyright: © 2022, Nicolas Carolo.
 :License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
-:Date: 2020-11-02
-:Version: 0.1.0
+:Date: 2022-01-09
+:Version: 1.0.0
 
 .. index:: CHANGELOG
 
@@ -19,5 +19,5 @@ More information can be found on GitHub in the `releases section
 Version History
 ===============
 
-0.1.0
+1.0.0
     Initial release.
