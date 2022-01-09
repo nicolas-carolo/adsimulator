@@ -5,10 +5,6 @@ def get_forest_default_groups_list(domain_name, domain_sid, old_domain_name):
     groups_list = STANDARD_GROUPS
     for group in groups_list:
         group = set_group_attributes(group, domain_name, domain_sid, old_domain_name)
-        try:
-            print("TEST DEFAULT GROUP:", group["Properties"]["distinguishedname"], group["Properties"]["name"])
-        except KeyError:
-            print("TEST DEFAULT GROUP:", group["Properties"]["name"])
     return groups_list
 
 
