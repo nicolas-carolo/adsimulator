@@ -2,7 +2,7 @@
 
 ## Structure of the Domain and its Organizational Units
 ```
-MATCH p=()−[r:Contains]−>() RETURN p
+MATCH p=()-[r:Contains]->() RETURN p
 ```
 
 The graph shows how users and computers are organized in the Organizational Units and in the domain. Yellow nodes represent users, violet nodes represent computers, and blue nodes are Organizational Units. The green node denotes the compromised user who was exploited for enumerating the Active Directory domain represented by the graph model. Users and computers are contained in Organizational Units and Organizational Units are contained in the domain.
@@ -11,7 +11,7 @@ The graph shows how users and computers are organized in the Organizational Unit
 
 ## Trust relationships between the domains belonging to the same forest:
 ```
-MATCH p=()−[r:TrustedBy]−>() RETURN p
+MATCH p=()-[r:TrustedBy]->() RETURN p
 ```
 
 The graph represents the **inbound**, **outbound** and **bidirectional trust relationships** between the `TESTLAB.LOCAL` domain and the other forest domains.
@@ -20,7 +20,7 @@ The graph represents the **inbound**, **outbound** and **bidirectional trust rel
 
 ## Group Memberships:
 ```
-MATCH p=()−[r:MemberOf]−>() RETURN p
+MATCH p=()-[r:MemberOf]->() RETURN p
 ```
 
 The graph shows the users and the computers that are members of the domain groups (orange nodes). Purple nodes on the top left are the computers that belong to the DOMAIN COMPUTERS group, while yellow nodes and the green one are the users that belong to the DOMAIN USERS group. Violet nodes on the right are the **Domain Controllers** that belong to the `DOMAIN CONTROLLERS` and to the `ENTERPRISE DOMAIN CONTROLLERS` groups.
