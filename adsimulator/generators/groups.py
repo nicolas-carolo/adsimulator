@@ -10,8 +10,8 @@ from adsimulator.utils.parameters import get_dict_param_value, print_departments
 
 
 
-def generate_default_groups(session, domain_name, domain_sid):
-    default_groups_list = get_forest_default_groups_list(domain_name, domain_sid)
+def generate_default_groups(session, domain_name, domain_sid, old_domain_name):
+    default_groups_list = get_forest_default_groups_list(domain_name, domain_sid, old_domain_name)
     for default_group in default_groups_list:
         try:
             session.run(
@@ -137,8 +137,8 @@ def generate_domain_administrators(session, domain_name, num_nodes, users):
     return das
 
 
-def generate_default_member_of(session, domain_name, domain_sid):
-    standard_group_members_list = get_forest_default_group_members_list(domain_name, domain_sid)
+def generate_default_member_of(session, domain_name, domain_sid, old_domain_name):
+    standard_group_members_list = get_forest_default_group_members_list(domain_name, domain_sid, old_domain_name)
     for group_member in standard_group_members_list:
         add_member_of_relationship(session, group_member)
 

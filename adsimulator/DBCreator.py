@@ -87,6 +87,7 @@ class MainMenu(cmd.Cmd):
         self.use_encryption = False
         self.driver = None
         self.connected = False
+        self.old_domain = None
         self.domain = "TESTLAB.LOCAL"
         self.current_time = int(time.time())
         self.base_sid = "S-1-5-21-883232822-274137685-4173207997"
@@ -253,6 +254,7 @@ class MainMenu(cmd.Cmd):
         self.test_db_conn()
         self.do_cleardb("a")
         self.generate_data()
+        self.old_domain = self.domain
 
  
     def generate_data(self):
@@ -281,7 +283,7 @@ class MainMenu(cmd.Cmd):
         functional_level = generate_domain(session, self.domain, self.base_sid, domain_dn, self.parameters)
         
         print("Generating the default domain groups")
-        generate_default_groups(session, self.domain, self.base_sid)   
+        generate_default_groups(session, self.domain, self.base_sid, self.old_domain)   
 
         ddp = str(uuid.uuid4()).upper()
         ddcp = str(uuid.uuid4()).upper()
@@ -341,7 +343,7 @@ class MainMenu(cmd.Cmd):
         das = generate_domain_administrators(session, self.domain, num_users, users)
 
         print("Adding members to default groups")
-        generate_default_member_of(session, self.domain, self.base_sid)
+        generate_default_member_of(session, self.domain, self.base_sid, self.old_domain)
 
         nesting_perc = get_perc_param_value("Group", "nestingGroupProbability", self.parameters)
         print("Applying random group nesting (nesting probability:", str(nesting_perc), "%)")
