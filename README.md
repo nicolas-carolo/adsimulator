@@ -113,6 +113,7 @@ This graph shows an example of how users and computers are organized in Organiza
    apoc.import.file.enabled=true
    apoc.import.file.use_neo4j_config=false
    apoc.export.file.enabled=true
+   apoc.export.file.enabled=true
    ```
 5. Install `adsimulator` running the following commands:
    ```sh
