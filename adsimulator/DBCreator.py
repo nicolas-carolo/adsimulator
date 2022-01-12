@@ -42,6 +42,7 @@ from adsimulator.utils.domains import get_domain_dn
 from adsimulator.utils.parameters import print_all_parameters, get_int_param_value, get_int_param_value_with_upper_limit,\
     get_perc_param_value
 from adsimulator.templates.default_values import DEFAULT_VALUES
+from adsimulator.utils.updates import install_updates
 
 
 
@@ -59,7 +60,7 @@ class Messages():
                                                           
         """
         )
-        print(" A realistic random generator of Active Directory domains\n")
+        print(" A realistic simulator of Active Directory domains\n")
         print("==================================================================")
 
 
@@ -135,10 +136,18 @@ class MainMenu(cmd.Cmd):
 
     def help_setparams(self):
         print("Import the settings JSON file containing the parameters for the graph generation")
+    
+
+    def help_update(self):
+        print("Check for available updates")
 
  
     def help_exit(self):
-        print("Exits the database creator")
+        print("Exit")
+    
+
+    def do_update(self, args):
+        install_updates()
 
  
     def do_dbconfig(self, args):
