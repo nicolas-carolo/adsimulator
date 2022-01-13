@@ -1,5 +1,6 @@
 import os
 import platform
+from adsimulator.utils.file import check_file_existence
 
 
 init_path = os.path.expanduser("~")
@@ -18,3 +19,6 @@ def install_updates():
         os.system(installer_path)
     else:
         printf("ERROR: System not supported")
+        exit(1)
+    if check_file_existence(init_path + "/.adsimulator/adsimulator_sw.lock"):
+        exit(0)
