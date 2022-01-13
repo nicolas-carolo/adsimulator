@@ -1,5 +1,20 @@
 # adsimulator: a realistic simulator of Active Directory domains
 
+```
+      ,.,
+      MMMM_    ,..,
+        "_ "__"MMMMM          ,...,,
+ ,..., __." --"    ,.,     _-"MMMMMMM
+MMMMMM"___ "_._   MMM"_."" _ """"""   _     _                 _       _               
+ """""    "" , \_.   "_. ."  __ _  __| |___(_)_ __ ___  _   _| | __ _| |_ ___  _ __    
+        ,., _"__ \__./ ."   / _` |/ _` / __| | '_ ` _ \| | | | |/ _` | __/ _ \| '__|   
+       MMMMM_"  "_    ./   | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | | 
+        ''''      (    )    \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_|  
+ ._______________.-'____"---._.
+  \                          /
+   \________________________/
+   (_)                    (_)
+```
 
 Author: Nicolas Carolo <nicolascarolo.dev@gmail.com>
 
@@ -148,7 +163,6 @@ The generated graph models are available at `http://localhost:7474/`, where we c
 
 ![Neo4j Web Interface](./img/neo4j.png)
 
-
 ## COPYRIGHT
 
 Copyright © 2022, Nicolas Carolo.
@@ -181,3 +195,8 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+## Credits
+
+The logo uses ASCII art created by Corwyn Yasuo Miyagishima.

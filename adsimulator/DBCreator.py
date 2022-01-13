@@ -16,8 +16,6 @@ import uuid
 import time
 import random
 import os
-
-
 from adsimulator.generators.groups import generate_default_groups
 from adsimulator.generators.domains import generate_domain, generate_trusts
 from adsimulator.generators.gpos import generate_default_gpos, link_default_gpos, generate_gpos, link_gpos_to_ous,\
@@ -43,6 +41,7 @@ from adsimulator.utils.parameters import print_all_parameters, get_int_param_val
     get_perc_param_value
 from adsimulator.templates.default_values import DEFAULT_VALUES
 from adsimulator.utils.updates import install_updates
+from adsimulator.utils.about import print_software_information
 
 
 
@@ -51,11 +50,21 @@ class Messages():
         print("==================================================================")
         print(
         """
-            _     _                 _       _             
-   __ _  __| |___(_)_ __ ___  _   _| | __ _| |_ ___  _ __ 
-  / _` |/ _` / __| | '_ ` _ \| | | | |/ _` | __/ _ \| '__|
- | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | |   
-  \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_|   
+
+      ,.,
+      MMMM_    ,..,
+        \"_ \"__"MMMMM          ,...,,
+ ,..., __.\" --\"    ,.,     _-\"MMMMMMM
+MMMMMM"___ "_._   MMM"_."" _ """"""         _     _                 _       _               
+ \"\"\"\"\"    \"\" , \_.   \"_. .\"  __ _  __| |___(_)_ __ ___  _   _| | __ _| |_ ___  _ __    
+        ,., _"__ \__./ ."   / _` |/ _` / __| | '_ ` _ \| | | | |/ _` | __/ _ \| '__|   
+       MMMMM_"  "_    ./   | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | | 
+        ''''      (    )    \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_|  
+ ._______________.-'____\"---._.
+  \                          /
+   \________________________/
+   (_)                    (_)
+
                                                          
                                                           
         """
@@ -141,6 +150,10 @@ class MainMenu(cmd.Cmd):
     def help_update(self):
         print("Check for available updates")
 
+
+    def help_about(self):
+        print("View information about adsimulator")
+
  
     def help_exit(self):
         print("Exit")
@@ -148,6 +161,10 @@ class MainMenu(cmd.Cmd):
 
     def do_update(self, args):
         install_updates()
+    
+
+    def do_about(self, args):
+        print_software_information()
 
  
     def do_dbconfig(self, args):
