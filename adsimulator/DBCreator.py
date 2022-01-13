@@ -42,6 +42,7 @@ from adsimulator.utils.parameters import print_all_parameters, get_int_param_val
 from adsimulator.templates.default_values import DEFAULT_VALUES
 from adsimulator.utils.updates import install_updates
 from adsimulator.utils.about import print_software_information
+from adsimulator.utils.file import check_file_existence
 
 
 
@@ -161,6 +162,9 @@ class MainMenu(cmd.Cmd):
 
     def do_update(self, args):
         install_updates()
+        init_path = os.path.expanduser("~")
+        if check_file_existence(init_path + "/adsimulator_sw.lock"):
+            exit(0)
     
 
     def do_about(self, args):
