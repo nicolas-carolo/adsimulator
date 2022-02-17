@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='adsimulator',
-      version='1.0.0',
+      version='1.1.0',
       description='A realistic random generator of Active Directory domains',
       keywords='adsimulator',
       author='Nicolas Carolo',

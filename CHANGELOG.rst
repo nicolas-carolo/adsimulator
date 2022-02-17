@@ -5,8 +5,8 @@ Appendix C. Changelog
 :Author: Nicolas Carolo <nicolascarolo.dev@gmail.com>
 :Copyright: © 2022, Nicolas Carolo.
 :License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
-:Date: 2022-01-09
-:Version: 1.0.0
+:Date: 2022-02-17
+:Version: 1.1.0
 
 .. index:: CHANGELOG
 
@@ -19,5 +19,5 @@ More information can be found on GitHub in the `releases section
 Version History
 ===============
 
-1.0.0
+1.1.0
     Initial release.

@@ -4,7 +4,7 @@ from adsimulator.utils.colors import O, W
 
 SW_NAME = "adsimulator"
 SW_VERSION = "1.1.0"
-RELEASE_DATE = "2022-01-13"
+RELEASE_DATE = "2022-02-17"
 DEVELOPER = "Nicolas Carolo"
 
 
