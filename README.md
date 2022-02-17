@@ -149,13 +149,15 @@ $ adsimulator
 
 ### Commands
 
-- `dbconfig` - Set the credentials and the database URL
-- `connect` - Connect to the database using supplied credentials
-- `setparams` - Import the settings JSON file containing the parameters for the graph generation. Here, a [template](./docs/settings.json) you can use for customizing setting and generate different Active Directory models.
-- `setdomain` - Set the domain name
-- `cleardb` - Clear the database and set the schema properly
-- `generate` - Connect to the database, clear the DB, set the schema, and generate the random graph model. If you use this command followed by a file path (e.g., `generate /tmp/testlab.json`), you can export the graph model as a JSON file.
-- `exit` - Exit
+* `dbconfig` - Set the credentials and the database URL
+* `connect` - Connect to the database using supplied credentials
+* `setparams` - Import the settings JSON file containing the parameters for the graph generation. Here, a [template](./docs/settings.json) you can use for customizing setting and generate different Active Directory models.
+* `setdomain` - Set the domain name
+* `cleardb` - Clear the database and set the schema properly
+* `generate` - Connect to the database, clear the DB, set the schema, and generate the random graph model. If you use this command followed by a file path (e.g., `generate /tmp/testlab.json`), you can export the graph model as a JSON file.
+* `about`: View information about the version of the software
+* `update`: Check for updates 
+* `exit` - Exit
 
 ### View generated graph models
 
