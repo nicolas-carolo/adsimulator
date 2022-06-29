@@ -96,8 +96,8 @@ def generate_groups(session, domain_name, domain_sid, domain_dn, num_nodes, grou
                 """
                 UNWIND $props as prop
                 MERGE (n:Base {objectid:prop.id})
-                SET n:Group, n.name=prop.name, n.distinguishedname=prop.dn, n.admincount=$prop.admincount,
-                n.description=$prop.description, n.highvalue=$prop.highvalue
+                SET n:Group, n.name=prop.name, n.distinguishedname=prop.dn, n.admincount=prop.admincount,
+                n.description=prop.description, n.highvalue=prop.highvalue
                 """,
                 props=props
             )

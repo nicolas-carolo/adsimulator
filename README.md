@@ -20,9 +20,9 @@ Author: Nicolas Carolo <nicolascarolo.dev@gmail.com>
 
 Copyright: © 2022, Nicolas Carolo.
 
-Date: 2022-02-17
+Date: 2022-06-29
 
-Version: 1.1.0
+Version: 1.1.1
 
 
 ## PURPOSE

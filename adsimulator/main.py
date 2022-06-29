@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# adsimulator v1.1.0
+# adsimulator v1.1.1
 # A realistic random generator of Active Directory domains
 # Copyright © 2022, Nicolas Carolo.
 # See /LICENSE for licensing information.
